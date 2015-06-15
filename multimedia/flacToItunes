@@ -1,4 +1,0 @@
-#!/bin/bash
-d=$(mktemp -d --tmpdir=$HOME/storage/Musique/FFOutput/ flacToAlac.XXX)
-for f in ./*.flac; do avconv -v warning -analyzeduration 100000000 -i "$f" -vn -c:a alac "$d/${f%.*}.m4a"; done
-#-vn: do not bother with video stream if present

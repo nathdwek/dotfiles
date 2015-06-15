@@ -1,5 +1,0 @@
-#!/bin/bash
-
-#requests the bibtex citation given its D.O.I. thanks to http://tex.stackexchange.com/a/45559/43582
-
-curl -LH "Accept: text/bibliography; style=bibtex" http://dx.doi.org/"$1"

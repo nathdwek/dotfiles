@@ -1,2 +1,0 @@
-#!/bin/bash
-for f in ./*.flac; do avconv -v warning -analyzeduration 100000000 -i "$f" -vn -c:a alac "${f%.*}.m4a"; done
