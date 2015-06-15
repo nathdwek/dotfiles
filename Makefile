@@ -16,6 +16,7 @@ default:
 	echo "Nothing done. You can do make install if you know what you're doing."
 
 install:
+	$(INSTALL) -d $(BEETSDIR)
 	$(INSTALL) -m 755 $(DOTFILES_755) $(INSTALL_DIR)
 	$(INSTALL) -m 644 $(DOTFILES_644) $(INSTALL_DIR)
 	$(INSTALL) -m 644 $(addprefix beets/, $(DOTFILES_BEETS)) $(BEETSDIR)
