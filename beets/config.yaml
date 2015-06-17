@@ -1,9 +1,6 @@
 directory: ~/storage/Musique/beets
 library: ~/storage/Musique/.beetslibrary.blb
 
-import:
-    move: yes
-
 plugins:
     missing duplicates fetchart embedart zero convert
 
