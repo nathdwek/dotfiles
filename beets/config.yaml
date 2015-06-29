@@ -4,6 +4,9 @@ library: ~/music/beetslibrary.blb
 plugins:
     missing duplicates fetchart embedart zero convert chroma
 
+import:
+    copy: yes
+
 fetchart:
     enforce_ratio: yes
 
