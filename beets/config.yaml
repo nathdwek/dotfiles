@@ -1,8 +1,8 @@
-directory: ~/storage/Musique/beets
-library: ~/storage/Musique/.beetslibrary.blb
+directory: ~/music/beetsdir
+library: ~/music/beetslibrary.blb
 
 plugins:
-    missing duplicates fetchart embedart zero convert
+    missing duplicates fetchart embedart zero convert chroma
 
 fetchart:
     enforce_ratio: yes
