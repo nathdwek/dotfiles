@@ -6,6 +6,7 @@ plugins:
 
 import:
     copy: yes
+    log: ~/music/beetsimports.log
 
 fetchart:
     enforce_ratio: yes
