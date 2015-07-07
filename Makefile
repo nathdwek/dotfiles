@@ -9,14 +9,19 @@ DOTFILES_BEETS=config.yaml
 
 INSTALL = install
 INSTALL_DIR=$(HOME)
-BEETSDIR=$(INSTALL_DIR)/.config/beets/
+
+BEETS_CONFIG_DIR=$(INSTALL_DIR)/.config/beets/
+BEETSDIR=$(INSTALL_DIR)/music/beetsdir
 
 default:
 	echo "This can amongst other things overwrite some of your config files, and will write in your HOMEDIR."
 	echo "Nothing done. You can do make install if you know what you're doing."
 
 install:
-	$(INSTALL) -d $(BEETSDIR)
 	$(INSTALL) -m 755 $(DOTFILES_755) $(INSTALL_DIR)
 	$(INSTALL) -m 644 $(DOTFILES_644) $(INSTALL_DIR)
-	$(INSTALL) -m 644 $(addprefix beets/, $(DOTFILES_BEETS)) $(BEETSDIR)
+	$(INSTALL) -m 644 $(addprefix beets/, $(DOTFILES_BEETS)) $(BEETS_CONFIG_DIR)
+
+beetsInit:
+	$(INSTALL) -d $(BEETS_CONFIG_DIR)
+	$(INSTALL) -d $(BEETSDIR)
