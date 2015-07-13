@@ -10,12 +10,14 @@ import:
 
 fetchart:
     enforce_ratio: yes
+    minwidth: 200
 
 zero:
     fields: albumartist_sort artist_sort comments genre
 
 convert:
     dest: "/common/itunesMedia/Automatically Add to iTunes"
+    never_convert_lossy_files: yes
     format: ipod
     formats:
         ipod:
