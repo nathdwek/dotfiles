@@ -2,7 +2,7 @@ directory: ~/music/beetsdir
 library: ~/music/beetslibrary.blb
 
 plugins:
-    missing duplicates fetchart embedart zero convert chroma
+    missing duplicates fetchart embedart zero convert chroma info smartplaylist play
 
 import:
     copy: yes
@@ -15,10 +15,18 @@ zero:
     fields: albumartist_sort artist_sort comments genre
 
 convert:
-    dest: ~/storage/Musique/FFOutput
+    dest: "/common/itunesMedia/Automatically Add to iTunes"
     format: ipod
     formats:
         ipod:
             command: avconv -v warning -analyzeduration 100000000 -i $source -vn -c:a alac -ar 48000 -sample_fmt s16p $dest
             extension: m4a
 
+smartplaylist:
+    playlist_dir: ~/music/playlists
+    playlists:
+        - name: bigmany.m3u
+          query: ['albumartist:"Dire Straits"', 'albumartist:"Mark Knopfler"', 'albumartist:"Pink Floyd"']
+
+play:
+    command: ds vlc --one-instance --playlist-enqueue --started-from-file -ZL
