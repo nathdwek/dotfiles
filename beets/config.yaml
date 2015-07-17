@@ -2,7 +2,7 @@ directory: ~/music/beetsdir
 library: ~/music/beetslibrary.blb
 
 plugins:
-    missing duplicates fetchart embedart zero convert chroma info smartplaylist play
+    missing duplicates fetchart embedart zero convert chroma info smartplaylist play check
 
 import:
     copy: yes
