@@ -1,0 +1,13 @@
+"*":
+  "exception-reporting":
+    userId: "ff49e55f-cf0d-c4b0-dc96-0290b690d294"
+  welcome:
+    showOnStartup: false
+  core: {}
+  editor:
+    invisibles: {}
+    fontFamily: "inconsolata"
+    fontSize: 18
+    showInvisibles: true
+    showIndentGuide: true
+    softWrap: true
