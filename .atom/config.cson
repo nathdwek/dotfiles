@@ -3,7 +3,10 @@
     userId: "ff49e55f-cf0d-c4b0-dc96-0290b690d294"
   welcome:
     showOnStartup: false
-  core: {}
+  core:
+    disabledPackages: [
+      "linter-pep257"
+    ]
   editor:
     invisibles: {}
     fontFamily: "inconsolata"
@@ -20,3 +23,9 @@
   linter:
     lintOnFly: false
   "linter-pep257": {}
+  "autocomplete-plus": {}
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+'.source.python':
+  whitespace:
+    removeTrailingWhitespace: true
