@@ -11,3 +11,12 @@
     showInvisibles: true
     showIndentGuide: true
     softWrap: true
+  "linter-pep8": {}
+  "autocomplete-python":
+    addDotAfterModule: true
+    addBracketAfterFunction: true
+    useSnippets: "required"
+  "linter-flake8": {}
+  linter:
+    lintOnFly: false
+  "linter-pep257": {}
