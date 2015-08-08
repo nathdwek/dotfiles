@@ -26,6 +26,8 @@
   "autocomplete-plus": {}
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
-'.source.python':
+  "keyboard-localization":
+    useKeyboardLayout: "fr_FR"
+".python.source":
   whitespace:
     removeTrailingWhitespace: true
