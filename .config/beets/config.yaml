@@ -14,6 +14,7 @@ fetchart:
 
 zero:
     fields: albumartist_sort artist_sort comments genre
+    update_database: true
 
 convert:
     dest: "/common/itunesMedia/Automatically Add to iTunes"
