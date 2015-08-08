@@ -1,0 +1,10 @@
+[redshift]
+temp-day=5200
+temp-night=3000
+gamma=1
+adjustment-method=randr
+location-provider=manual
+
+[manual]
+lat=50.85
+lon=4.35

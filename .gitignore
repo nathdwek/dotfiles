@@ -7,6 +7,7 @@
 !.atom/config.cson
 
 !.Xmodmap
+!.redshift
 
 !.bashrc
 !.dircolors
