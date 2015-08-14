@@ -138,3 +138,8 @@ export PASS_CLIP_BY_DEFAULT="yes";
 
 #bash-completion for beets
 eval "$(beet completion)";
+
+#cabal installed stuff
+if [ -d "$HOME/.cabal/bin" ]; then
+export PATH="$HOME/.cabal/bin:$PATH"
+fi
