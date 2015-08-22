@@ -1,5 +1,6 @@
 directory: ~/music/beetsdir
-library: ~/music/beetslibrary.blb
+library: ~/music/beetsdir/beetslibrary.db
+asciify_path: yes
 
 plugins:
     missing duplicates fetchart embedart zero convert chroma info smartplaylist play check
@@ -10,7 +11,7 @@ import:
 
 fetchart:
     enforce_ratio: yes
-    minwidth: 200
+    minwidth: 500
 
 zero:
     fields: albumartist_sort artist_sort comments genre
