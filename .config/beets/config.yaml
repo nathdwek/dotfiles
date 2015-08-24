@@ -34,4 +34,5 @@ smartplaylist:
 
 play:
     warning_treshold: 0
-    command: ds vlc --one-instance --no-playlist-enqueue --started-from-file -ZL
+    raw: yes
+    command: ds vlc --one-instance --playlist-enqueue --started-from-file -ZL
