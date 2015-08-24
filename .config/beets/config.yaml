@@ -33,4 +33,5 @@ smartplaylist:
           query: ['albumartist:"Dire Straits"', 'albumartist:"Mark Knopfler"', 'albumartist:"Pink Floyd"']
 
 play:
+    warning_treshold: 0
     command: ds vlc --one-instance --no-playlist-enqueue --started-from-file -ZL
