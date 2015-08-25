@@ -7,13 +7,15 @@
 [alias]
    tree = log --graph --all --decorate --oneline
    rmc = rm --cached
-   c = commit -S -m
-   ca = commit -S -am
+   c = commit -m
+   cs = commit -S -m
+   ca = commit -am
+   csa = commit -S -am
    s = status
    a = add
    ap = add -p
-   d = diff
-   dc = diff --color-words
+   d = diff --color-words
+   dc = diff --cached
 [core]
    editor = vim
 [format]
