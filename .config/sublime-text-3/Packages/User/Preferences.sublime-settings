@@ -1,0 +1,40 @@
+{
+    "ignored_packages":
+    [
+    "Vintage"
+    ],
+    "font_face": "inconsolata",
+    "font_size": 13,
+    "translate_tabs_to_spaces": true,
+    "highlight_line": true,
+    "draw_white_space": "all",
+
+    // Set to true to removing trailing white space on save
+    "trim_trailing_white_space_on_save": true,
+
+    // Set to true to ensure the last line of the file ends in a newline
+    // character when saving
+    "ensure_newline_at_eof_on_save": true,
+
+    // By default, auto complete will commit the current completion on enter.
+    // This setting can be used to make it complete on tab instead.
+    // Completing on tab is generally a superior option, as it removes
+    // ambiguity between committing the completion and inserting a newline.
+    "auto_complete_commit_on_tab": true,
+
+    // When drag_text is enabled, clicking on selected text will begin a
+    // drag-drop operation. This is not currently implemented under Linux.
+    "drag_text": false,
+
+    // Sets the colors used within the text area
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+    // The theme controls the look of Sublime Text's UI (buttons, tabs, scroll bars, etc)
+    "theme": "Default.sublime-theme",
+
+    // Set to 0 to disable smooth scrolling. Set to a value between 0 and 1 to
+    // scroll slower, or set to larger than 1 to scroll faster
+    "scroll_speed": 0,
+
+    // Makes tabs with modified files more visible
+    "highlight_modified_tabs": true,
+}
