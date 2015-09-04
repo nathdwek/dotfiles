@@ -3,10 +3,7 @@
     userId: "ff49e55f-cf0d-c4b0-dc96-0290b690d294"
   welcome:
     showOnStartup: false
-  core:
-    disabledPackages: [
-      "linter-pep257"
-    ]
+  core: {}
   editor:
     invisibles: {}
     fontFamily: "inconsolata"
