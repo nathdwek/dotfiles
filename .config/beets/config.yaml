@@ -1,5 +1,5 @@
 directory: ~/music/beetsdir
-library: ~/music/beetsdir/beetslibrary.db
+library: ~/beetslibrary.db
 asciify_path: yes
 
 plugins:
@@ -7,10 +7,10 @@ plugins:
 
 import:
     copy: yes
-    log: ~/music/beetsimports.log
+    log: ~/beetsimports.log
 
 fetchart:
-    enforce_ratio: yes
+    enforce_ratio: no
     minwidth: 500
 
 zero:
