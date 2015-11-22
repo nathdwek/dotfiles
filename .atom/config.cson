@@ -3,11 +3,14 @@
     userId: "ff49e55f-cf0d-c4b0-dc96-0290b690d294"
   welcome:
     showOnStartup: false
-  core: {}
+  core:
+    disabledPackages: [
+      "linter-python-pep257"
+    ]
   editor:
     invisibles: {}
     fontFamily: "inconsolata"
-    fontSize: 18
+    fontSize: 21
     showInvisibles: true
     showIndentGuide: true
     softWrap: true
@@ -25,6 +28,9 @@
     ignoreWhitespaceOnCurrentLine: false
   "keyboard-localization":
     useKeyboardLayout: "fr_FR"
+  "linter-python-pep257": {}
+  latex:
+    alwaysOpenResultInAtom: true
 ".python.source":
   whitespace:
     removeTrailingWhitespace: true
