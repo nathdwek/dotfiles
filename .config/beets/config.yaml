@@ -3,7 +3,7 @@ library: ~/beetslibrary.db
 asciify_path: yes
 
 plugins:
-    missing duplicates fetchart embedart zero convert chroma info smartplaylist play check
+    missing duplicates fetchart embedart zero convert chroma info smartplaylist play
 
 import:
     copy: yes
