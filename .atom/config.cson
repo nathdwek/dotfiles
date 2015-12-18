@@ -5,7 +5,8 @@
     showOnStartup: false
   core:
     disabledPackages: [
-      "linter-python-pep257"
+      "linter-chktex"
+      "linter-pep257"
     ]
   editor:
     invisibles: {}
