@@ -1,13 +1,13 @@
 directory: ~/music/beetsdir
-library: ~/beetslibrary.db
+library: ~/.beets.db
 asciify_path: yes
 
 plugins:
-    missing duplicates fetchart embedart zero convert chroma info smartplaylist play
+    missing duplicates fetchart embedart zero convert chroma info smartplaylist play discogs
 
 import:
     copy: yes
-    log: ~/beetsimports.log
+    log: ~/.beetsimports.log
 
 fetchart:
     enforce_ratio: no
