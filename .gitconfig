@@ -16,6 +16,7 @@
    ap = add -p
    d = diff --color-words
    dc = diff --cached
+   ls = ls-files
 [core]
    editor = vim
    autocrlf = input
