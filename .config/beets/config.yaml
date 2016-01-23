@@ -3,7 +3,7 @@ library: ~/.beets.db
 asciify_path: yes
 
 plugins:
-    missing duplicates fetchart embedart zero convert chroma info smartplaylist play discogs
+    missing duplicates fetchart embedart zero convert chroma info play discogs
 
 import:
     copy: yes
@@ -25,12 +25,9 @@ convert:
         ipod:
             command: avconv -v warning -analyzeduration 100000000 -i $source -vn -c:a alac -ar 48000 -sample_fmt s16p $dest
             extension: m4a
-
-smartplaylist:
-    playlist_dir: ~/music/playlists
-    playlists:
-        - name: bigmany.m3u
-          query: ['albumartist:"Dire Straits"', 'albumartist:"Mark Knopfler"', 'albumartist:"Pink Floyd"']
+        mp320:
+            command: avconv -v warning -analyzeduration 100000000 -i $source -vn -c:a libmp3lame -b:a 320k $dest
+            extension: mp3
 
 play:
     warning_threshold: no
