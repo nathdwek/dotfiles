@@ -144,4 +144,5 @@ if [ -d "$HOME/.cabal/bin" ]; then
 export PATH="$HOME/.cabal/bin:$PATH"
 fi
 
+export GOPATH=$HOME/opt/gocode/
 export EDITOR=vim
