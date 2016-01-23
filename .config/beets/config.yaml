@@ -25,6 +25,10 @@ convert:
         ipod:
             command: avconv -v warning -analyzeduration 100000000 -i $source -vn -c:a alac -ar 48000 -sample_fmt s16p $dest
             extension: m4a
+        mp320:
+            command: avconv -v warning -analyzeduration 100000000 -i $source -vn -c:a libmp3lame -b:a 320k $dest
+            extension: mp3
+
 
 smartplaylist:
     playlist_dir: ~/music/playlists
