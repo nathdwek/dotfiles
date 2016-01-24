@@ -116,6 +116,10 @@ fi
 if [ -d "$HOME/bin" ]; then
    PATH="$HOME/bin:$PATH";
 fi
+#include pip/setuptools bin
+if [ -d "$HOME/.local/bin" ]; then
+   PATH="$HOME/.local/bin:$PATH";
+fi
 
 
 # enable programmable completion features (you don't need to enable
