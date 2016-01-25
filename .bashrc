@@ -148,5 +148,8 @@ if [ -d "$HOME/.cabal/bin" ]; then
 export PATH="$HOME/.cabal/bin:$PATH"
 fi
 
+#bash completion for pip
+eval "`pip completion --bash`"
+
 export GOPATH=$HOME/opt/gocode/
 export EDITOR=vim
