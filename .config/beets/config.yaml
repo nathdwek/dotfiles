@@ -18,9 +18,9 @@ zero:
     update_database: true
 
 convert:
-    dest: "/home/nathdwek/multiM/music/converted"
+    dest: "/common/itunesMedia/Automatically Add to iTunes"
     never_convert_lossy_files: yes
-    format: mp320
+    format: ipod
     formats:
         ipod:
             command: avconv -v warning -analyzeduration 100000000 -i $source -vn -c:a alac -ar 48000 -sample_fmt s16p $dest
