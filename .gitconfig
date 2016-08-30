@@ -21,7 +21,7 @@
    editor = vim
    autocrlf = input
 [format]
-   pretty ="%C(yellow)%ar%Creset %C(white bold)%h%Creset %C(bold)%s%Creset %C(yellow bold)%an%Creset"
+   pretty ="%C(yellow)%<(15)%ar%Creset %C(white)%h%Creset %C(bold)%<(50)%s%Creset %C(yellow)%an%Creset"
 [push]
    default = upstream
 [log]
