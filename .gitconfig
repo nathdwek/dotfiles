@@ -11,11 +11,11 @@
    cs = commit -S -m
    ca = commit -am
    csa = commit -S -am
-   s = status
+   s = status --short --branch
    a = add
    ap = add -p
    d = diff --color-words
-   dc = diff --cached
+   dc = diff --cached --color-words
    ls = ls-files
 [core]
    editor = vim
