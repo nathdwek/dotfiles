@@ -14,6 +14,7 @@
       "latex"
       "linter-chktex"
       "linter-pep257"
+      "spell-check"
     ]
   editor:
     invisibles: {}
