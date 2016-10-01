@@ -12,7 +12,6 @@
   core:
     disabledPackages: [
       "linter-python-pep257"
-      "latex"
       "linter-chktex"
       "linter-pep257"
       "spell-check"
