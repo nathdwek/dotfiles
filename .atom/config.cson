@@ -16,6 +16,7 @@
       "linter-chktex"
       "linter-pep257"
       "spell-check"
+      "linter-shellcheck"
     ]
   editor:
     fontFamily: "inconsolata"
