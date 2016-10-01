@@ -3,6 +3,11 @@
     userId: "ff49e55f-cf0d-c4b0-dc96-0290b690d294"
   welcome:
     showOnStartup: false
+  build:
+    refreshOnShowTargetList: true
+    saveOnBuild: true
+  "build-make":
+    useMake: true
   core:
     disabledPackages: [
       "linter-python-pep257"
