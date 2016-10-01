@@ -34,6 +34,7 @@
   "linter-pep257": {}
   "linter-pep8": {}
   "linter-python-pep257": {}
+  "linter-spell": {}
   "markdown-preview":
     useGitHubStyle: true
   "pdf-view": {}
