@@ -36,6 +36,7 @@
   "linter-python-pep257": {}
   "markdown-preview":
     useGitHubStyle: true
+  "pdf-view": {}
   "tree-view":
     autoReveal: true
     focusOnReveal: false
