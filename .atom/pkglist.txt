@@ -1,5 +1,6 @@
 advanced-open-file@0.16.4
 auto-detect-indentation@1.2.0
+autocomplete-python@1.8.6
 build@0.65.0
 build-make@0.13.0
 busy@0.7.0
@@ -16,6 +17,7 @@ language-restructuredtext@1.0.0
 latexer@0.3.0
 linter@1.11.16
 linter-eslint@7.3.2
+linter-flake8@1.13.4
 linter-shellcheck@1.4.1
 linter-spell@0.12.0
 linter-spell-latex@0.9.0
