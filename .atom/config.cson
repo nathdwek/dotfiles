@@ -1,8 +1,9 @@
 "*":
-  "exception-reporting":
-    userId: "ff49e55f-cf0d-c4b0-dc96-0290b690d294"
-  welcome:
-    showOnStartup: false
+  "autocomplete-plus": {}
+  "autocomplete-python":
+    addBracketAfterFunction: true
+    addDotAfterModule: true
+    useSnippets: "required"
   build:
     refreshOnShowTargetList: true
     saveOnBuild: true
@@ -17,32 +18,31 @@
       "spell-check"
     ]
   editor:
-    invisibles: {}
     fontFamily: "inconsolata"
     fontSize: 21
+    invisibles: {}
     showInvisibles: true
     showIndentGuide: true
     softWrap: true
-  "linter-pep8": {}
-  "autocomplete-python":
-    addDotAfterModule: true
-    addBracketAfterFunction: true
-    useSnippets: "required"
-  "linter-flake8": {}
+  "exception-reporting":
+    userId: "ff49e55f-cf0d-c4b0-dc96-0290b690d294"
+  "keyboard-localization":
+    useKeyboardLayout: "fr_FR"
   linter:
     lintOnFly: false
+  "linter-flake8": {}
   "linter-pep257": {}
-  "autocomplete-plus": {}
+  "linter-pep8": {}
+  "linter-python-pep257": {}
   "tree-view":
     autoReveal: true
     focusOnReveal: false
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
-  "keyboard-localization":
-    useKeyboardLayout: "fr_FR"
-  "linter-python-pep257": {}
 ".csv.semicolon.text":
   editor:
     tabLength: 8
