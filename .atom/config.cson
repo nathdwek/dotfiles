@@ -34,6 +34,8 @@
   "linter-pep257": {}
   "linter-pep8": {}
   "linter-python-pep257": {}
+  "markdown-preview":
+    useGitHubStyle: true
   "tree-view":
     autoReveal: true
     focusOnReveal: false
