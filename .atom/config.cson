@@ -23,7 +23,6 @@
     fontSize: 21
     invisibles: {}
     showInvisibles: true
-    showIndentGuide: true
     softWrap: true
   "exception-reporting":
     userId: "ff49e55f-cf0d-c4b0-dc96-0290b690d294"
