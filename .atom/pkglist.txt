@@ -8,6 +8,7 @@ git-blame@0.4.11
 highlight-selected@0.11.2
 indent-guide-improved@1.4.10
 intentions@1.1.2
+keyboard-localization@1.4.18
 language-csv@1.1.2
 language-docker@1.1.7
 language-latex@1.0.0
