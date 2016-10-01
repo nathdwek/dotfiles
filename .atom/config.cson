@@ -33,6 +33,11 @@
     lintOnFly: false
   "linter-pep257": {}
   "autocomplete-plus": {}
+  "tree-view":
+    autoReveal: true
+    focusOnReveal: false
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
   "keyboard-localization":
