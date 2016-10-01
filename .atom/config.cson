@@ -45,6 +45,12 @@
   "linter-python-pep257": {}
   latex:
     alwaysOpenResultInAtom: true
+".csv.semicolon.text":
+  editor:
+    tabLength: 8
+".csv.text":
+  editor:
+    tabLength: 8
 ".python.source":
   whitespace:
     removeTrailingWhitespace: true
