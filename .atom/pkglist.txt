@@ -14,7 +14,7 @@ keyboard-localization
 language-csv
 language-docker
 language-restructuredtext
-language-latex
+language-tex
 latexer
 linter
 linter-eslint
