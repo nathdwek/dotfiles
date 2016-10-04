@@ -5,6 +5,7 @@ build
 build-make
 busy
 character-table
+file-icons
 git-blame
 highlight-selected
 indent-guide-improved
@@ -24,5 +25,3 @@ linter-spell-latex
 pdf-view
 rst-preview
 switch-header-source
-
-
