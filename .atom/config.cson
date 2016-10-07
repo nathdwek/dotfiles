@@ -17,6 +17,8 @@
       "linter-pep257"
       "spell-check"
       "linter-shellcheck"
+      "autocomplete-snippets"
+      "snippets"
     ]
   editor:
     fontFamily: "inconsolata"
