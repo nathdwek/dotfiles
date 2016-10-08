@@ -153,3 +153,8 @@ eval "`pip completion --bash`"
 
 export GOPATH=$HOME/opt/gocode/
 export EDITOR=vim
+
+#SSH Config
+cat .ssh/config.in > .ssh/config
+cat .ssh/config.private >> .ssh/config
+chmod 600 .ssh/config
