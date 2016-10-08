@@ -11,6 +11,8 @@
    cs = commit -S -m
    ca = commit -am
    csa = commit -S -am
+   cv = commit
+   cav = commit -a
    s = status --short --branch
    a = add
    ap = add -p
