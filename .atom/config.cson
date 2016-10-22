@@ -12,6 +12,7 @@
   "build-make":
     useMake: true
   core:
+    autoHideMenuBar: true
     disabledPackages: [
       "linter-python-pep257"
       "linter-pep257"
