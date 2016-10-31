@@ -1,7 +1,10 @@
 "*":
   "advanced-open-file":
     createDirectories: true
-  "autocomplete-plus": {}
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+    defaultProvider: "Fuzzy"
   "autocomplete-python":
     addBracketAfterFunction: true
     addDotAfterModule: true
