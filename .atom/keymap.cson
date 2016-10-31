@@ -1,0 +1,34 @@
+'atom-text-editor[data-grammar~="haskell"]':
+  '': 'haskell-ghc-mod:check-file'
+  '': 'haskell-ghc-mod:lint-file'
+  '': 'haskell-ghc-mod:show-type' #this is an example binding
+  '': 'haskell-ghc-mod:show-info' #this is an example binding
+  '': 'haskell-ghc-mod:insert-type' #this is an example binding
+  '': 'haskell-ghc-mod:case-split'
+  '': 'haskell-ghc-mod:sig-fill'
+  '': 'haskell-ghc-mod:show-info-fallback-to-type'
+  'alt-t': 'haskell-ghc-mod:show-type-fallback-to-info'
+  'alt-i': 'haskell-ghc-mod:show-type-and-info'
+  '': 'haskell-ghc-mod:insert-import'
+  'alt-d': 'haskell-ghc-mod:go-to-declaration'
+
+'atom-workspace':
+  '': 'haskell-ghc-mod:shutdown-backend'
+
+'atom-text-editor[data-grammar~="haskell"]':
+  'escape': 'ide-haskell:close-tooltip' #this is set by default
+  '':'ide-haskell:prettify-file'
+  '':'ide-haskell:next-error'
+  '':'ide-haskell:prev-error'
+
+'atom-text-editor[data-grammar~="cabal"]':
+  '': 'ide-haskell:prettify-file'
+
+'atom-workspace':
+  '': 'ide-haskell:toggle-output'
+
+'atom-workspace':
+  '': 'ide-haskell-cabal:build'
+  '': 'ide-haskell-cabal:set-build-target'
+  '': 'ide-haskell-cabal:clean'
+  '': 'ide-haskell-cabal:test'

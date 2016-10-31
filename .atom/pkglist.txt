@@ -1,5 +1,6 @@
 advanced-open-file
 auto-detect-indentation
+autocomplete-haskell
 autocomplete-python
 build
 build-make
@@ -7,12 +8,16 @@ busy
 character-table
 file-icons
 git-blame
+haskell-ghc-mod
 highlight-selected
+ide-haskell
+ide-haskell-cabal
 indent-guide-improved
 intentions
 keyboard-localization
 language-csv
 language-docker
+language-haskell
 language-restructuredtext
 language-tex
 latexer

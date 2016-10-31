@@ -35,6 +35,9 @@
   "file-icons":
     coloured: false
     onChanges: true
+  "ide-haskell":
+    onCursorMove: "Show Tooltip"
+    onSavePrettify: true
   "keyboard-localization":
     useKeyboardLayout: "fr_FR"
   linter:
