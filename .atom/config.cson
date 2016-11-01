@@ -5,9 +5,11 @@
     backspaceTriggersAutocomplete: true
     confirmCompletion: "tab always, enter when suggestion explicitly selected"
     defaultProvider: "Fuzzy"
+    enableBuiltinProvider: false
   "autocomplete-python":
     addBracketAfterFunction: true
     addDotAfterModule: true
+    triggerCompletionRegex: "([.(]|[a-zA-Z_][a-zA-Z0-9_]{2,})"
     useSnippets: "required"
   build:
     refreshOnShowTargetList: true
