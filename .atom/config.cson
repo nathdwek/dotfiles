@@ -26,6 +26,7 @@
       "autocomplete-snippets"
       "snippets"
     ]
+    telemetryConsent: "no"
   editor:
     fontFamily: "inconsolata"
     fontSize: 21
