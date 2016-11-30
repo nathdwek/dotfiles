@@ -4,6 +4,7 @@
    tool = meld
 [diff]
    tool = meld
+   indentHeuristic = true
 [alias]
    tree = log --graph --all --decorate --oneline
    rmc = rm --cached
