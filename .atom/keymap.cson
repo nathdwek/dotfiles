@@ -27,3 +27,5 @@
 #   '': 'ide-haskell-cabal:clean'
 #   '': 'ide-haskell-cabal:test'
 
+'atom-text-editor':
+  'ctrl-shift-delete': 'editor:delete-to-end-of-line'
