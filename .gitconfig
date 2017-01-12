@@ -34,3 +34,7 @@
    old = white red bold
 [tar]
    txz = "xz -c"
+[commit]
+	verbose = true
+[rebase]
+	autostash = true
