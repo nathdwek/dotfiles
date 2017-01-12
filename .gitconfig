@@ -1,39 +1,39 @@
 [color]
-   ui = auto
+	ui = auto
 [merge]
-   tool = meld
+	tool = meld
 [diff]
-   tool = meld
-   indentHeuristic = true
+	tool = meld
+	indentHeuristic = true
 [alias]
-   tree = log --graph --all --decorate --oneline
-   rmc = rm --cached
-   c = commit -m
-   cs = commit -S -m
-   ca = commit -am
-   csa = commit -S -am
-   cv = commit
-   cav = commit -a
-   s = status --short --branch
-   a = add
-   ap = add -p
-   d = diff --color-words
-   dc = diff --cached --color-words
-   ls = ls-files
+	tree = log --graph --all --decorate --oneline
+	rmc = rm --cached
+	c = commit -m
+	cs = commit -S -m
+	ca = commit -am
+	csa = commit -S -am
+	cv = commit
+	cav = commit -a
+	s = status --short --branch
+	a = add
+	ap = add -p
+	d = diff --color-words
+	dc = diff --cached --color-words
+	ls = ls-files
 [core]
-   editor = vim
-   autocrlf = input
+	editor = vim
+	autocrlf = input
 [format]
-   pretty ="%C(yellow)%<(15)%ar%Creset %C(white)%h%Creset %C(bold)%<(50)%s%Creset %C(yellow)%an%Creset"
+	pretty ="%C(yellow)%<(15)%ar%Creset %C(white)%h%Creset %C(bold)%<(50)%s%Creset %C(yellow)%an%Creset"
 [push]
-   default = upstream
+	default = upstream
 [log]
-   date = relative
+	date = relative
 [color "diff"]
-   new = white green bold
-   old = white red bold
+	new = white green bold
+	old = white red bold
 [tar]
-   txz = "xz -c"
+	txz = "xz -c"
 [commit]
 	verbose = true
 [rebase]
