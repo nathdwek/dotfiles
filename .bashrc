@@ -137,9 +137,6 @@ if [ -f ~/opt/git-dev/contrib/completion/git-completion.bash ]; then
 	source ~/opt/git-dev/contrib/completion/git-completion.bash
 fi
 
-#pass:output to clipboard by default
-export PASS_CLIP_BY_DEFAULT="yes";
-
 #bash-completion for beets
 eval "$(beet completion)";
 
