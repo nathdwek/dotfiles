@@ -46,8 +46,7 @@
   linter:
     lintOnFly: false
     showErrorPanel: false
-  "linter-flake8":
-    executablePath: "flake8;/home/nathdwek/.local/bin/flake8"
+  "linter-flake8": {}
   "linter-pep257": {}
   "linter-pep8": {}
   "linter-python-pep257": {}
