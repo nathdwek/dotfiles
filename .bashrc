@@ -146,7 +146,7 @@ export PATH="$HOME/.cabal/bin:$PATH"
 fi
 
 #bash completion for pip
-eval "`pip completion --bash`"
+eval "`pip3 completion --bash`"
 
 export GOPATH=$HOME/opt/gocode/
 export EDITOR=vim
