@@ -155,3 +155,5 @@ export EDITOR=vim
 cat $HOME/.ssh/config.in > $HOME/.ssh/config
 cat $HOME/.ssh/config.private >> $HOME/.ssh/config
 chmod 600 $HOME/.ssh/config
+
+eval "$(stack --bash-completion-script stack)"
