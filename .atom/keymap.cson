@@ -15,6 +15,7 @@
   'escape': 'ide-haskell:close-tooltip' #this is set by default
   'alt-i': 'haskell-ghc-mod:show-type-and-info'
   'alt-t': 'haskell-ghc-mod:show-type-fallback-to-info'
+  'ctrl-alt-b': 'ide-haskell-cabal:build'
 
 # 'atom-text-editor[data-grammar~="cabal"]':
 #   '': 'ide-haskell:prettify-file'
@@ -22,7 +23,6 @@
 # 'atom-workspace':
 #   '': 'haskell-ghc-mod:shutdown-backend'
 #   '': 'ide-haskell:toggle-output'
-#   '': 'ide-haskell-cabal:build'
 #   '': 'ide-haskell-cabal:set-build-target'
 #   '': 'ide-haskell-cabal:clean'
 #   '': 'ide-haskell-cabal:test'
