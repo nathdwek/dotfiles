@@ -143,7 +143,6 @@ eval "$(beet completion)";
 #bash completion for pip
 eval "`pip3 completion --bash`"
 
-export GOPATH=$HOME/opt/gocode/
 export EDITOR=vim
 
 #SSH Config
