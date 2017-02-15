@@ -38,3 +38,5 @@
 	verbose = true
 [rebase]
 	autostash = true
+[svn]
+	rmdir = true
