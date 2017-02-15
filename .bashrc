@@ -140,11 +140,6 @@ fi
 #bash-completion for beets
 eval "$(beet completion)";
 
-#cabal installed stuff
-if [ -d "$HOME/.cabal/bin" ]; then
-export PATH="$HOME/.cabal/bin:$PATH"
-fi
-
 #bash completion for pip
 eval "`pip3 completion --bash`"
 
