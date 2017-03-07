@@ -1,5 +1,6 @@
 advanced-open-file
 auto-detect-indentation
+autocomplete-clang
 autocomplete-haskell
 autocomplete-python
 build
@@ -21,6 +22,7 @@ language-restructuredtext
 language-tex
 latexer
 linter
+linter-clang
 linter-eslint
 linter-flake8
 linter-shellcheck
