@@ -3,11 +3,15 @@ library: ~/.beets.db
 asciify_path: yes
 
 plugins:
-    missing duplicates fetchart embedart zero convert chroma info play discogs random
+    missing duplicates fetchart embedart zero convert chroma info play discogs random fuzzy
 
 import:
     copy: yes
     log: ~/.beetsimports.log
+
+fuzzy:
+    threshold: 0.8
+    prefix: "?"
 
 fetchart:
     enforce_ratio: no
