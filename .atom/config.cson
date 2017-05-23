@@ -25,6 +25,7 @@
       "linter-shellcheck"
       "autocomplete-snippets"
       "snippets"
+      "tabs"
     ]
     telemetryConsent: "no"
   editor:
