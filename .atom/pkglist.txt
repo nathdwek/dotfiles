@@ -28,6 +28,8 @@ linter-flake8
 linter-shellcheck
 linter-spell
 linter-spell-latex
+markdown-pdf
 pdf-view
 rst-preview
 switch-header-source
+
