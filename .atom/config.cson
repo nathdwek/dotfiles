@@ -18,6 +18,7 @@
     useMake: true
   core:
     autoHideMenuBar: true
+    closeEmptyWindows: false
     disabledPackages: [
       "linter-python-pep257"
       "linter-pep257"
