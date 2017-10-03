@@ -1,6 +1,5 @@
 directory: ~/music/beetsdir
 library: ~/.beets.db
-asciify_path: yes
 
 plugins:
     missing duplicates fetchart embedart zero convert chroma info play discogs random fuzzy
