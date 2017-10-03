@@ -24,14 +24,15 @@ zero:
 convert:
     dest: /tmp/
     never_convert_lossy_files: yes
-    format:
     formats:
         ipod:
             command: ffmpeg -v warning -analyzeduration 100000000 -i $source -vn -c:a alac -ar 48000 -sample_fmt s16p $dest
             extension: m4a
-        mp320:
-            command: ffmpeg -v warning -analyzeduration 100000000 -i $source -vn -c:a libmp3lame -b:a 320k $dest
-            extension: mp3
+        opus: ffmpeg -i $source -y -vn -acodec libopus -ab 128k $dest
+        aac:
+            extension: m4a
+            command: ffmpeg -i $source -vn -c:a libfdk_aac -vbr 5 $dest
+        mp3: ffmpeg -i $source -y -vn -c:a libmp3lame $dest
 
 play:
     warning_threshold: no
