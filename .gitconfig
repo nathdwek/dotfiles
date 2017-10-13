@@ -14,6 +14,8 @@
 	csa = commit -S -am
 	cv = commit
 	cav = commit -a
+	ci = svn dcommit
+	up = svn rebase
 	s = status --short --branch
 	a = add
 	ap = add -p
@@ -36,7 +38,5 @@
 	txz = "xz -c"
 [commit]
 	verbose = true
-[rebase]
-	autostash = true
 [svn]
 	rmdir = true
