@@ -10,6 +10,7 @@
     addBracketAfterFunction: true
     addDotAfterModule: true
     triggerCompletionRegex: "([.(]|[a-zA-Z_][a-zA-Z0-9_]{2,})"
+    useKite: false
     useSnippets: "required"
   build:
     refreshOnShowTargetList: true
