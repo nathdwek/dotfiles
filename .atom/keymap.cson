@@ -29,3 +29,8 @@
 
 'atom-text-editor':
   'ctrl-shift-delete': 'editor:delete-to-end-of-line'
+  'ctrl-shift-f': 'atom-beautify:beautify-editor'
+
+'atom-text-editor.autocomplete-active':
+  'tab': 'autocomplete-plus:cancel'
+  'ctrl-space': 'autocomplete-plus:confirm'
