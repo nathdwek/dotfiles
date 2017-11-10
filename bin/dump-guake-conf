@@ -1,0 +1,4 @@
+#!/bin/sh
+
+gconftool-2 --dump /apps/guake > .guake/conf.xml
+gconftool-2 --dump /schemas/apps/guake > .guake/schemas.xml
