@@ -1,6 +1,10 @@
 "*":
   "advanced-open-file":
     createDirectories: true
+  "atom-beautify":
+    python:
+      beautify_on_save: true
+      sort_imports: true
   "autocomplete-plus":
     backspaceTriggersAutocomplete: true
     confirmCompletion: "tab always, enter when suggestion explicitly selected"
@@ -29,11 +33,15 @@
       "snippets"
       "tabs"
     ]
+    packagesWithKeymapsDisabled: [
+      "atom-beautify"
+    ]
     telemetryConsent: "no"
   editor:
     fontFamily: "inconsolata"
     fontSize: 21
-    invisibles: {}
+    invisibles:
+      eol: false
     showInvisibles: true
     softWrap: true
   "exception-reporting":
@@ -74,6 +82,8 @@
   editor:
     tabLength: 8
 ".python.source":
+  editor:
+    showIndentGuide: true
   whitespace:
     removeTrailingWhitespace: true
 ".tex.text":
