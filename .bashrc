@@ -121,6 +121,11 @@ if [ -d "$HOME/.local/bin" ]; then
    PATH="$HOME/.local/bin:$PATH";
 fi
 
+#include cargo bin
+if [ -d "$HOME/.cargo/bin" ]; then
+   PATH="$HOME/.cargo/bin:$PATH";
+fi
+
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
