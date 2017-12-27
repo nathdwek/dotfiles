@@ -1,0 +1,40 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Inconsolata",
+    "editor.fontSize": 17,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "editor.roundedSelection": false,
+    "window.menuBarVisibility": "hidden",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "[c]": {
+        "editor.autoIndent": true
+    },
+    "[cpp]": {
+        "editor.autoIndent": true
+    },
+    "python.autoComplete.addBrackets": true,
+    "python.autoComplete.preloadModules": [
+        "numpy"
+    ],
+    "python.pythonPath": "python3",
+    "latex-workshop.latex.autoBuild.onSave.enabled": false,
+    "latex-workshop.latex.toolchain": [
+        {
+            "command": "make",
+            "args": [
+                "-j8",
+            ]
+        }
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "editor.scrollBeyondLastLine": false,
+}
