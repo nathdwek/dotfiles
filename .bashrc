@@ -169,3 +169,5 @@ eval "$(stack --bash-completion-script stack)"
 if type ds >/dev/null; then
 	complete -c ds
 fi
+
+export PYTHONSTARTUP=$HOME/.startup.py
