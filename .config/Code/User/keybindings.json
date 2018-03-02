@@ -8,7 +8,8 @@
     {
         "key": "enter",
         "command": "-acceptSelectedSuggestionOnEnter",
-        "when": "acceptSuggestionOnEnter && editorTextFocus && suggestWidgetVisible && suggestionMakesTextEdit" },
+        "when": "acceptSuggestionOnEnter && editorTextFocus && suggestWidgetVisible && suggestionMakesTextEdit"
+    },
     {
         "key": "ctrl+shift+d",
         "command": "editor.action.copyLinesDownAction",

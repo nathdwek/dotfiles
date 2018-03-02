@@ -50,4 +50,7 @@
         "plaintext"
     ],
     "workbench.statusBar.feedback.visible": false,
+    "[jsonc]": {
+        "editor.formatOnSave": true,
+    },
 }
