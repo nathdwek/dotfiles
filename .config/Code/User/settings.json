@@ -6,6 +6,10 @@
     "editor.wordWrap": "on",
     "editor.fontFamily": "Inconsolata",
     "editor.fontSize": 17,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.autoIndent": true
+    },
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "all",
     "editor.roundedSelection": false,
@@ -19,9 +23,9 @@
     "[cpp]": {
         "editor.autoIndent": true
     },
-    "python.autoComplete.addBrackets": true,
+    "python.autoComplete.addBrackets": false,
     "python.autoComplete.preloadModules": [
-        "numpy"
+        "numpy", "scipy", "matplotlib"
     ],
     "python.pythonPath": "python3",
     "latex-workshop.latex.autoBuild.onSave.enabled": false,
