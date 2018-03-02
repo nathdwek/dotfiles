@@ -165,3 +165,7 @@ cat $HOME/.ssh/config.private >> $HOME/.ssh/config
 chmod 600 $HOME/.ssh/config
 
 eval "$(stack --bash-completion-script stack)"
+
+if type ds >/dev/null; then
+	complete -c ds
+fi
