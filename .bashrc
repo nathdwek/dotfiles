@@ -183,7 +183,15 @@ chmod 600 $HOME/.ssh/config
 eval "$(stack --bash-completion-script stack)"
 
 if type ds >/dev/null; then
-	complete -c ds
+	function _ds_autocomplete_()
+	{
+		case $COMP_CWORD in
+			1) COMPREPLY=($(compgen -back -A function -- "${COMP_WORDS[COMP_CWORD]}"));;
+			*) COMPREPLY=();;
+		esac
+	}
+
+	complete -o filenames -o default -F _ds_autocomplete_ ds
 fi
 
 export PYTHONSTARTUP=$HOME/.startup.py
