@@ -25,12 +25,23 @@
     },
     "python.autoComplete.addBrackets": false,
     "python.autoComplete.preloadModules": [
-        "numpy", "scipy", "matplotlib"
+        "numpy",
+        "scipy",
+        "matplotlib"
     ],
     "python.pythonPath": "python3",
     "latex-workshop.latex.autoBuild.onSave.enabled": false,
-    "latex-workshop.latex.toolchain": [
+    "latex-workshop.latex.recipes": [
         {
+            "name": "make",
+            "tools": [
+                "make"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "make",
             "command": "make",
             "args": [
                 "-j8",
