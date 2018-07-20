@@ -27,7 +27,8 @@
     "python.autoComplete.preloadModules": [
         "numpy",
         "scipy",
-        "matplotlib"
+        "matplotlib",
+        "casadi"
     ],
     "python.pythonPath": "python3",
     "latex-workshop.latex.autoBuild.onSave.enabled": false,
