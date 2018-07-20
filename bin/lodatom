@@ -1,3 +1,0 @@
-#!/bin/bash
-
-apm install --compatible --packages-file $HOME/.atom/pkglist.txt
