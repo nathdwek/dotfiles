@@ -14,14 +14,6 @@ HISTCONTROL=ignoreboth
 # Don't record some commands
 export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history:clear"
 
-# Enable incremental history search with up/down arrows (also Readline goodness)
-# Learn more about this here: http://codeinthehole.com/writing/the-most-important-command-line-tip-incremental-history-searching-with-inputrc/
-bind '"\e[A": history-search-backward'
-bind '"\e[B": history-search-forward'
-bind '"\e[C": forward-char'
-bind '"\e[D": backward-char'
-
-
 # append to the history file, don't overwrite it
 shopt -s histappend
 shopt -s cmdhist
