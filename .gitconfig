@@ -40,3 +40,5 @@
 	verbose = true
 [svn]
 	rmdir = true
+[rerere]
+	enabled = 1
