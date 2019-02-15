@@ -24,12 +24,6 @@
         "editor.autoIndent": true
     },
     "python.autoComplete.addBrackets": false,
-    "python.autoComplete.preloadModules": [
-        "numpy",
-        "scipy",
-        "matplotlib",
-        "casadi"
-    ],
     "python.pythonPath": "python3",
     "latex-workshop.latex.autoBuild.onSave.enabled": false,
     "latex-workshop.latex.recipes": [
@@ -70,5 +64,6 @@
     ],
     "[markdown]": {
         "editor.rulers": [],
-    }
+    },
+    "python.jediEnabled": false,
 }
