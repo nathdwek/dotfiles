@@ -25,7 +25,6 @@
     },
     "python.autoComplete.addBrackets": false,
     "python.pythonPath": "python3",
-    "latex-workshop.latex.autoBuild.onSave.enabled": false,
     "latex-workshop.latex.recipes": [
         {
             "name": "make",
@@ -65,5 +64,7 @@
     "[markdown]": {
         "editor.rulers": [],
     },
+    "latex-workshop.message.update.show": false,
     "python.jediEnabled": false,
+    "latex-workshop.latex.autoBuild.run": "never"
 }
