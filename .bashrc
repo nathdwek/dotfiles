@@ -189,5 +189,5 @@ if command -v tmux>/dev/null; then
   [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && { tmux attach || exec tmux new-session && exit;}
 fi
 
-export SUMO_HOME=/home/nathdwek/share/sumo
+export SUMO_HOME=$HOME/share/sumo
 
