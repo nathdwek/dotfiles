@@ -10,18 +10,18 @@ esac
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
-HISTCONTROL=ignoreboth
+export HISTCONTROL=ignoreboth
 # Don't record some commands
 export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history:clear"
 
 # append to the history file, don't overwrite it
 shopt -s histappend
 shopt -s cmdhist
-PROMPT_COMMAND='history -a'
+export PROMPT_COMMAND='history -a'
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000000
-HISTFILESIZE=1000000
+export HISTSIZE=1000000
+export HISTFILESIZE=1000000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -107,9 +107,6 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -191,3 +188,6 @@ export PYTHONSTARTUP=$HOME/.startup.py
 if command -v tmux>/dev/null; then
   [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && { tmux attach || exec tmux new-session && exit;}
 fi
+
+export SUMO_HOME=/home/nathdwek/share/sumo
+
