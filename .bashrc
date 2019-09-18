@@ -186,7 +186,7 @@ fi
 export PYTHONSTARTUP=$HOME/.startup.py
 
 if command -v tmux>/dev/null; then
-  [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && { tmux attach || exec tmux new-session && exit;}
+    [ -z $TMUX ] && { tmux attach || exec tmux new-session && exit;}
 fi
 
 export SUMO_HOME=$HOME/share/sumo
