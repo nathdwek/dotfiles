@@ -8,7 +8,7 @@
     "editor.fontSize": 20,
     "[python]": {
         "editor.formatOnSave": true,
-        "editor.autoIndent": true
+        "editor.autoIndent": "full"
     },
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "all",
@@ -18,10 +18,10 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "[c]": {
-        "editor.autoIndent": true
+        "editor.autoIndent": "full"
     },
     "[cpp]": {
-        "editor.autoIndent": true
+        "editor.autoIndent": "full"
     },
     "python.autoComplete.addBrackets": false,
     "python.pythonPath": "python3",
@@ -66,5 +66,7 @@
     },
     "latex-workshop.message.update.show": false,
     "python.jediEnabled": false,
-    "latex-workshop.latex.autoBuild.run": "never"
+    "latex-workshop.latex.autoBuild.run": "never",
+    "editor.acceptSuggestionOnEnter": "off",
+    "python.languageServer": "Jedi"
 }
