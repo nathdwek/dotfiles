@@ -1,14 +1,14 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "editor.renderWhitespace": "boundary",
     "editor.wordWrap": "on",
     "editor.fontFamily": "Inconsolata",
     "editor.fontSize": 20,
     "[python]": {
         "editor.formatOnSave": true,
-        "editor.autoIndent": "full"
+        "editor.autoIndent": "full",
+        "editor.defaultFormatter": "ms-python.autopep8"
     },
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "all",
@@ -23,8 +23,6 @@
     "[cpp]": {
         "editor.autoIndent": "full"
     },
-    "python.autoComplete.addBrackets": false,
-    "python.pythonPath": "python3",
     "latex-workshop.latex.recipes": [
         {
             "name": "make",
@@ -39,34 +37,29 @@
             "command": "make",
             "args": [
                 "-j8",
-                "%DOC%.pdf"
+                "%DOCFILE%.pdf"
             ]
         }
     ],
-    "python.linting.flake8Enabled": true,
-    "python.linting.pylintEnabled": false,
     "editor.scrollBeyondLastLine": false,
-    "window.zoomLevel": 0,
-    "workbench.editor.showTabs": false,
-    "spellright.language": "en_GB",
-    "spellright.documentTypes": [
-        "markdown",
-        "latex",
-        "plaintext"
-    ],
-    "workbench.statusBar.feedback.visible": false,
+    "workbench.editor.showTabs": "single",
     "[jsonc]": {
         "editor.formatOnSave": true,
     },
-    "editor.rulers": [
-        120
-    ],
+    "editor.rulers": [],
     "[markdown]": {
         "editor.rulers": [],
     },
-    "latex-workshop.message.update.show": false,
-    "python.jediEnabled": false,
     "latex-workshop.latex.autoBuild.run": "never",
     "editor.acceptSuggestionOnEnter": "off",
-    "python.languageServer": "Jedi"
+    "keyboard.dispatch": "keyCode",
+    "window.zoomLevel": 1,
+    "latex-workshop.latex.rootFile.indicator": "\\begin{document}",
+    "cSpell.enabledFileTypes": {
+        "ignore": true,
+        "latex": true
+    },
+    "cSpell.language": "en-US",
+    "cSpell.useGitignore": false,
+    "git.blame.editorDecoration.enabled": false,
 }
